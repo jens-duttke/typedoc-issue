@@ -1,0 +1,66 @@
+# Non-public stuff #
+####################
+
+# Git
+.gitconfig
+.git-credentials
+
+
+# IDE                   #
+#########################
+
+
+# Build generated files #
+#########################
+
+# npm
+node_modules/
+
+# Distribution file
+/build/
+
+# Jest (Istanbul)
+/coverage/
+
+# Deployment related files #
+############################
+
+
+# Logs #
+########
+*.log
+
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+*~
+*.lock
+
+
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.pyc
+*.so
+__pycache__
+
+
+# Packages #
+############
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip

@@ -1,0 +1,16 @@
+{
+	"name": "HexEd.it",
+	"readme": "none",
+	"entryPoints": [
+		"src/typings-bundle/ts4.0/main.d.ts"
+	],
+	"out": "docs",
+	"excludeExternals": true,
+	"excludePrivate": true,
+	"excludeProtected": true,
+	"disableSources": true,
+	"listInvalidSymbolLinks": true,
+	"markedOptions": {
+		"mangle": false
+	}
+}

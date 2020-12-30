@@ -1,0 +1,25 @@
+{
+	"name": "hexedit",
+	"version": "1.5.0",
+	"description": "The core library of HexEd.it.",
+	"author": {
+		"name": "Jens Duttke",
+		"email": "contact@hexed.it"
+	},
+	"license": "This source code is not licensed for use and may not be used on any site, personal or commercial, without prior written consent from Jens Duttke.",
+	"private": true,
+	"peerDependencies": {
+		"typescript": ">= 3.3.1"
+	},
+	"scripts": {
+		"typedoc": "typedoc"
+	},
+	"engines": {
+		"node": ">=14.4.0"
+	},
+	"devDependencies": {
+		"typedoc": "0.20.1",
+		"typescript": "4.1.3"
+	},
+	"dependencies": {}
+}

@@ -1,0 +1,30 @@
+{
+	"compilerOptions": {
+		// General settings for code interpretation
+		"target": "esnext",
+		"module": "commonjs",
+		"jsx": "react",
+		"isolatedModules": true,
+		"allowSyntheticDefaultImports": false,
+		"experimentalDecorators": true,
+		"noEmit": true,
+		"noEmitOnError": true,
+
+		"baseUrl": "./src",
+		"rootDir": "src/ts",
+
+		"paths": {
+			/* ... */
+		},
+
+		// General settings for code generation
+		"removeComments": false,
+		"inlineSourceMap": true,
+		"inlineSources": true,
+		"newLine": "LF"
+	},
+	"include": [
+		"./src/typings/*.d.ts",
+		"./src/**/*"
+	]
+}
